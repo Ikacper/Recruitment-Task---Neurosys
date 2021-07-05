@@ -1,0 +1,15 @@
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+}
+
+.link {
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+}

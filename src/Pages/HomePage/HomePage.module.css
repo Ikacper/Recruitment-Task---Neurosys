@@ -1,0 +1,18 @@
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media (min-width: 475px) {
+  .title {
+    font-size: 4.5rem;
+  }
+}

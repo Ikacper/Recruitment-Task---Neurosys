@@ -1,0 +1,7 @@
+.pauseBtn {
+  fill: #fff;
+}
+
+.pauseBtn:hover {
+  cursor: pointer;
+}
