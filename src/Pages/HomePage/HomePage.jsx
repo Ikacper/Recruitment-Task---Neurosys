@@ -28,8 +28,7 @@ function AboutUsPage() {
   const [play, setPlay] = useState(false)
   const [delay, setDelay] = useState(true)
   const [audio] = useState(new Audio('/theblaze.mp3'))
-  //let audio = 
-
+  
   function handleClickPlay () {
     audio.play()
     setPlay(!play)
@@ -43,10 +42,7 @@ function AboutUsPage() {
 
   return (
     <>
-    <motion.div 
-    className={styles.titleWrapper}
-
-    >
+    <div className={styles.titleWrapper}>
       <motion.h1
       className={styles.title}
       variants={sentence}
@@ -64,7 +60,7 @@ function AboutUsPage() {
       })} 
       </motion.h1> 
       {play ? <PauseButton handleClickPause={handleClickPause}/> : <PlayButton handleClickPlay={handleClickPlay} delay={delay}/>}
-    </motion.div>
+    </div>
     </>
   )
 }

@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.text {
+  width: 300px;
+  margin: auto;
+  line-height: 1.3;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 900px) {
+  .text {
+    width: 450px;
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .text {
+    width: 550px;
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+}
