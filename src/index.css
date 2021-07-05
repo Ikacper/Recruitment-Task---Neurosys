@@ -12,4 +12,5 @@ body {
   background-attachment: fixed;
   color: #fff;
   font-family: "Archivo Black", sans-serif;
+  overflow-x: hidden;
 }

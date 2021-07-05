@@ -1,0 +1,85 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.wrapper {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: fixed;
+  right: 0px;
+  top: 0;
+  bottom: 0;
+  transform: translateX(100%);
+  transition: transform 2s ease;
+  z-index: 2;
+}
+
+.visible {
+  transform: translateX(0%);
+}
+
+.contactBtn {
+  padding: 1rem;
+  background-color: transparent;
+  border: 5px solid #fff;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.contactBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.textInput {
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border: none;
+  width: 200px;
+}
+
+.textArea {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #fff;
+}
+
+.sendMsgBtn {
+  border: 3px solid #fff;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: transparent;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.sendMsgBtn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.error {
+  position: relative;
+  bottom: 10px;
+  color: rgb(151, 23, 23);
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.338);
+  z-index: 1;
+}
