@@ -6,10 +6,11 @@
 
 .navLinks a {
   text-decoration: none;
-}
-
-.link {
   padding: 1rem;
   text-transform: uppercase;
   color: #fff;
+}
+
+ul > .selected {
+  color: #f9dc5c;
 }
