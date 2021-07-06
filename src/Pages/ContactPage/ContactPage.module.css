@@ -35,7 +35,8 @@
 }
 
 .contactBtn:hover {
-  opacity: 0.7;
+  color: #f9dc5c;
+  border-color: #f9dc5c;
   cursor: pointer;
 }
 
