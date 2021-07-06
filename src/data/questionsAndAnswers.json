@@ -1,0 +1,65 @@
+[
+  {
+    "question": "The group of wind instruments does not include:",
+    "answers": [
+      "Harmonica",
+      "Trombone",
+      "Lutes"
+    ],
+    "correct": "Lutes"
+  },
+  {
+    "question": "The basic element of musical writing for notation of sounds in modern musical notation is:",
+    "answers": [
+      "Seven-line",
+      "five-line",
+      "four-line"
+    ],
+    "correct": "five-line"
+  },
+  {
+    "question": "Joseph Haydn, Wolfgang Amadeus Mozart and Ludwig van Beethoven are three classics:",
+    "answers": [
+      "Brandenburg",
+      "Geneva",
+      "Viennese"
+    ],
+    "correct": "Viennese"
+  },
+  {
+    "question": "Alt is included in the following voices:",
+    "answers": [
+      "Female",
+      "Male",
+      "Both"
+    ],
+    "correct": "Female"
+  },
+  {
+    "question": "A musical style consisting in the performance of a choir of polyphonic pieces without the accompaniment of instruments on:",
+    "answers": [
+      "A cappella",
+      "A tutti",
+      "A volta"
+    ],
+    "correct": "A cappella"
+  },
+  {
+    "question": "The virtuoso of which instrument was Louis Armstrong?",
+    "answers": [
+      "Saxophone",
+      "Trumpet",
+      "Violin"
+    ],
+    "correct": "Trumpet"
+  },
+  {
+    "question": "Which instrument is bigger?",
+    "answers": [
+      "Violin",
+      "Cello",
+      "They are the same"
+    ],
+    "correct": "Cello"
+  }
+]
